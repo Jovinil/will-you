@@ -10,6 +10,7 @@ let h2= document.createElement("h2");
 h2.textContent = "Yours always, Jovinil";
 
 function showFull(){
+    main.style.height = "fit-content";
     main.innerHTML = "";
     container.append(h1, p, h2);
     main.append(container);
@@ -27,5 +28,6 @@ function output(){
 }
 
 btn.addEventListener("click", Event => {
+    
     output();
 });

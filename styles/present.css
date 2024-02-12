@@ -12,7 +12,7 @@
 
 main{
     width: 100vw;
-    height: fit-content;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ div{
     gap: .5rem;
     background-color: #eae2e2;
     padding: 1rem 2rem;
-    margin: 3rem;
+    margin: 2rem;
     border: none;
     border-radius: 1rem;
     box-shadow: 1px 1px 5px #868383;
@@ -34,6 +34,7 @@ div{
 .open{
     font-size: 5rem;
     cursor: pointer;
+    /* position: absolute; */
 }
 
 p{
@@ -48,6 +49,6 @@ h2{
 
 @media only screen and (min-width: 768px) {
     main{
-        height: 100vh;
+        height: 80vh;
     }
 }
