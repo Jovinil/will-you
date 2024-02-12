@@ -32,8 +32,9 @@ main{
 }
 
 .img-container{
-    width: 80%;
+    width: 100%;
     height: 50%;
+    padding: .5rem;
     object-fit: cover;
     object-position: center;
 }
@@ -56,14 +57,14 @@ img{
 }
 
 .text-container > :first-child{
-    background-color: rgb(8, 255, 17);
-    box-shadow: 1px 1px 2px rgb(8, 255, 17);
+    background-color: rgb(51, 244, 58);
+    box-shadow: 1px 1px 2px rgb(51, 244, 58);
 }
 
 
 .text-container > :last-child{
-    background-color: rgb(255, 27, 27);
-    box-shadow: 1px 1px 2px rgb(255, 27, 27);
+    background-color: rgb(255, 89, 89);
+    box-shadow: 1px 1px 2px rgb(255, 89, 89);
 }
 
 @media only screen and (min-width: 768px) {
